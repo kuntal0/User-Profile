@@ -82,6 +82,7 @@ export default class UserProfile extends React.Component<
           <p>Given Name : {this.state.givenName},</p>
           <p>Surname : {this.state.surname},</p>
           <p>Mail ID : {this.state.mail},</p>
+          <p>Mobile No. : {this.state.mobilePhone},</p>
         </div>
         <img src="https://graph.microsoft.com/v1.0/me/photo/$value" alt="" />
       </section>
